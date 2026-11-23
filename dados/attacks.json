@@ -1,0 +1,65 @@
+{
+  "Lancer": {
+    "padroes_ataque": [
+      {
+        "nome": "Bicicleta",
+        "cor_alma": "vermelho",
+        "duracao_ms": 5000,
+        "eventos": [
+          { "tempo_ms": 0, "tipo": "definir_mensagem", "texto": "Lancer prepara a bicicleta!" },
+          { "tempo_ms": 500, "tipo": "criar_projetil", "tipo_projetil": "spade.png", "x": -280, "y": 50, "vx": 5, "vy": 0 },
+          { "tempo_ms": 1000, "tipo": "criar_projetil", "tipo_projetil": "spade.png", "x": -280, "y": 100, "vx": 5, "vy": 0 },
+          { "tempo_ms": 1500, "tipo": "criar_projetil", "tipo_projetil": "spade.png", "x": -280, "y": 150, "vx": 5, "vy": 0 }
+        ]
+      }
+    ]
+  },
+  "Sans": {
+    "padroes_ataque": [
+      {
+        "nome": "FileiraDeOssosSimples",
+        "cor_alma": "vermelho",
+        "duracao_ms": 3000,
+        "eventos": [
+          { "tempo_ms": 0, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 10, "y": 0, "vx": 0, "vy": 5 },
+          { "tempo_ms": 200, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 70, "y": 0, "vx": 0, "vy": 5 },
+          { "tempo_ms": 400, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 130, "y": 0, "vx": 0, "vy": 5 },
+          { "tempo_ms": 600, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 190, "y": 0, "vx": 0, "vy": 5 }
+        ]
+      },
+      {
+        "nome": "VarreduraHorizontal",
+        "cor_alma": "vermelho",
+        "duracao_ms": 5000,
+        "eventos": [
+          { "tempo_ms": 0, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 0, "y": 0, "vx": 5, "vy": 0 },
+          { "tempo_ms": 500, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 0, "y": 50, "vx": 5, "vy": 0 },
+          { "tempo_ms": 1000, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 0, "y": 100, "vx": 5, "vy": 0 },
+          { "tempo_ms": 1500, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 0, "y": 150, "vx": 5, "vy": 0 }
+        ]
+      },
+      {
+        "nome": "ParedeDeOssos",
+        "cor_alma": "azul",
+        "duracao_ms": 4000,
+        "eventos": [
+          { "tempo_ms": 0, "tipo": "definir_mensagem", "texto": "Vais ter um mau momento." },
+          { "tempo_ms": 0, "tipo": "criar_parede_ossos", "lado": "bottom", "velocidade": 5, "tamanho_lacuna": 2, "pos_lacuna": "aleatoria" }
+        ]
+      },
+      {
+        "nome": "OssosNoChao",
+        "cor_alma": "azul",
+        "duracao_ms": 5000,
+        "eventos": [
+          { "tempo_ms": 0, "tipo": "definir_mensagem", "texto": "Pule com [Z] ou [Cima]!" },
+          { "tempo_ms": 300, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 240, "y": 210, "vx": -5, "vy": 0, "largura": 16, "altura": 30 },
+          { "tempo_ms": 1200, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 240, "y": 200, "vx": -5, "vy": 0, "largura": 16, "altura": 40 },
+          { "tempo_ms": 2000, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 240, "y": 210, "vx": -5, "vy": 0, "largura": 16, "altura": 30 },
+          { "tempo_ms": 2600, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 240, "y": 210, "vx": -5, "vy": 0, "largura": 16, "altura": 30 },
+          { "tempo_ms": 3500, "tipo": "criar_projetil", "tipo_projetil": "osso.png", "x": 240, "y": 195, "vx": -5, "vy": 0, "largura": 16, "altura": 45 }
+        ]
+      }
+    ]
+  }
+}

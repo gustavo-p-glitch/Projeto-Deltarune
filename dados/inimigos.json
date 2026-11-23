@@ -1,0 +1,39 @@
+[
+    {
+        "nome": "Lancer",
+        "vida": 30,
+        "magia": 0,
+        "atk": 8,
+        "defn": 1,
+        "lootouro": 10,
+        "pasta_anim": "pasta_anim_lancer"
+    },
+    {
+        "nome": "Muffet",
+        "vida": 50,
+        "magia": 0,
+        "atk": 5,
+        "defn": 0,
+        "lootouro": 5,
+        "pasta_anim": "muffet"
+    },
+    {
+        "nome": "sans",
+        "vida": 50,
+        "magia": 0,
+        "atk": 10,
+        "defn": 5,
+        "lootouro": 10,
+        "pasta_anim": "sans",
+        "musica": "megalovania.ogg"
+    },
+    {
+        "nome": "Knight",
+        "vida": 50,
+        "magia": 0,
+        "atk": 1000,
+        "defn": 5,
+        "lootouro": 10,
+        "pasta_anim": "pasta_anim_dummy"
+    }
+]

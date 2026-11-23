@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.tmp
+*.corrompido.bak
+.venv/
+.DS_Store
