@@ -19,7 +19,7 @@
     },
     {
         "nome": "sans",
-        "vida": 50,
+        "vida": 500,
         "magia": 0,
         "atk": 10,
         "defn": 5,

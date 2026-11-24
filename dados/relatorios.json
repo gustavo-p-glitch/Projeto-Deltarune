@@ -212,5 +212,35 @@
         "dano_causado": 50,
         "dano_recebido": 0,
         "vida_curada": 0
+    },
+    {
+        "timestamp": "2026-11-24 15:07:04",
+        "inimigo": "sans",
+        "vitoria": true,
+        "poupado": false,
+        "turnos_passados": 3,
+        "dano_causado": 50,
+        "dano_recebido": 12,
+        "vida_curada": 0
+    },
+    {
+        "timestamp": "2026-11-24 15:22:37",
+        "inimigo": "Lancer",
+        "vitoria": true,
+        "poupado": false,
+        "turnos_passados": 1,
+        "dano_causado": 30,
+        "dano_recebido": 0,
+        "vida_curada": 0
+    },
+    {
+        "timestamp": "2026-11-24 15:22:43",
+        "inimigo": "Lancer",
+        "vitoria": true,
+        "poupado": false,
+        "turnos_passados": 4,
+        "dano_causado": 30,
+        "dano_recebido": 38,
+        "vida_curada": 0
     }
 ]
